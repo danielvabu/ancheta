@@ -1,0 +1,20 @@
+GIT
+0.Conf
+git config --global user.name "Javier Cruz"
+git config --global user.email "jcjavier@hotmail.com"
+
+1. inicializa
+git init
+
+2.git status
+
+3.git add -A
+
+4.git commit -m "aca voy"
+
+5. git log //muestra los commits
+5.1 git log > commits.txt
+6. git checkout [[SHA]]
+7. git checkout master
+8. git reset [--soft][--hard]
+9. git help

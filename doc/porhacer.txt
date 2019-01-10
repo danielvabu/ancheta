@@ -1,0 +1,9 @@
+
+ya			verificar codigo de los filtros optiongroups y cerrar etiquetas
+
+ya			meter metodo activos e inactivos en los modelos
+
+ya			quitar los cosos de configuracion del menu publico
+
+guardar un archivo de configuracion
+
