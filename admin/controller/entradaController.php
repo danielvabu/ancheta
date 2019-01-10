@@ -15,7 +15,7 @@ class entradaController {
         $data['response'] = $_POST['g-recaptcha-response'];
         $data['remoteip'] = $_SERVER['REMOTE_ADDR'];
         //$pave = $this->http_post('https://www.google.com/recaptcha/api/siteverify',$data);$llega = json_decode($pave['content'],true);
-        //if($llega['success'] == true){
+        //if(llega['success'] == true){ a
         if (1 == 1) {
             if ($user != '' && $clave != '') {
                 $entrando = new entradaModel();
