@@ -1,12 +1,12 @@
 <?php
 
-if (preg_match("/artesabio.com/i", $_SERVER["HTTP_HOST"])) {
+if (preg_match("/dominio.com/i", $_SERVER["HTTP_HOST"])) {
     define('DB_SERVER', 'localhost');
     define('DB_TIPO', 'mysqli');
     define('DB_DEBUG', false);
-    define('DB_USER', 'artesabi_arte');
-    define('DB_CLAVE', 'Asdf1234.#');
-    define('DB_DB', 'artesabi_artesabio');
+    define('DB_USER', 'root');
+    define('DB_CLAVE', 'pass');
+    define('DB_DB', 'basededato');
 } else {
     define('DB_SERVER', 'localhost');
     define('DB_TIPO', 'mysqli');

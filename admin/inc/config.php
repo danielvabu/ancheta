@@ -1,6 +1,6 @@
 <?php
 
-if (preg_match("/artesabio.com/i", $_SERVER["HTTP_HOST"])) {
+if (preg_match("/dominio.com/i", $_SERVER["HTTP_HOST"])) {
     define('MIURL', 'http://www.artesabio.com');
     define('MIURLS', 'https://www.artesabio.com');
     define('PATO', '/admin/');
@@ -13,7 +13,7 @@ if (preg_match("/artesabio.com/i", $_SERVER["HTTP_HOST"])) {
 }
 
 //   Varios
-define("URLVIEW", "artesabio.com");
+define("URLVIEW", "dominio.com");
 define("PERFIL", 'admin');
 define('ROOT_PATH', $_SERVER['DOCUMENT_ROOT']);
 define('RPP', 10);
